@@ -2,8 +2,8 @@ class VideosScreen < ProMotion::TableScreen
   attr_accessor :course_id
 
   title "Videos"
-  searchable placeholder: "Search Videos"
-
+  searchable placeholder: "Search Articles"
+  
   def on_load
     p self.course_id
   end
